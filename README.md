@@ -22,3 +22,26 @@ The POST to `/item` will create a new item entry, it will return the created ite
 
 ### `POST /item/{itemID}/{property}`:
 This Route will take a value, and assign the item with {itemID} of the passed itemID, and assign the passed value to the property {property}
+
+## Resources Schema:
+The System will rely on two json files worth of data, the `itemList.json` file, and `clients.json`. 
+
+#### `itemList.json` Schema:
+```json
+{
+    "name": "{NAME}",
+    "model": "{MODEL}",
+    "location": "{LOCATION}",
+    "takenOut": "{TAKEN_OUT}",
+    "user": "{USER_ID}"
+}
+```
+
+#### `clients.json` Schema:
+```json
+{
+    "id": "{CLIENT_ID}",
+    "name": "{CLIENT_NAME}",
+    "email": "{CLIENT_EMAIL}"
+}
+```
