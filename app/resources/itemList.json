@@ -1,0 +1,16 @@
+[
+    {
+        "name": "iPad",
+        "model": "iPad Mini 3",
+        "location": "Store",
+        "takenOut": "False",
+        "user": "00000000"
+    },
+    {
+        "name": "iPhone",
+        "model": "iPhone XS",
+        "location": "Store",
+        "takenOut": "False",
+        "user": "00000000"
+    }
+]
