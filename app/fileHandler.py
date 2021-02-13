@@ -1,10 +1,12 @@
 import json
 
+baseURL = '/app'
+
 def getItems():
-    with open('./resources/itemList.json', 'r') as file:
+    with open(f'{baseURL}/resources/itemList.json', 'r') as file:
         dump = file.readlines()
         data = json.loads(''.join(dump))
-        print(data)
+        return(data)
 
 if __name__ == "__main__":
     getItems()
