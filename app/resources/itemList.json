@@ -1,5 +1,6 @@
 [
     {
+        "id": "00000000",
         "name": "iPad",
         "model": "iPad Mini 3",
         "location": "Store",
@@ -7,6 +8,7 @@
         "user": "00000000"
     },
     {
+        "id": "00000000",
         "name": "iPhone",
         "model": "iPhone XS",
         "location": "Store",
